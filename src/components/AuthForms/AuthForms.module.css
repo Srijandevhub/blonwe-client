@@ -1,0 +1,39 @@
+.formWrapper {
+    max-width: 520px;
+    padding: 50px 0.25rem;
+    margin: 0 auto;
+}
+.formHeading {
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: 0.25rem;
+}
+.formText {
+    font-size: 0.875rem;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.submitBtn {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #004745;
+    outline: none;
+    border-radius: 5px;
+    background-color: #004745;
+    color: #fff;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.submitBtn:hover {
+    background-color: #fff;
+    color: #004745;
+}
